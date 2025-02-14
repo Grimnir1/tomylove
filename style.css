@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Satisfy&display=swap');
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: 1000px;
+  background-image: url("https://www.psdgraphics.com/wp-content/uploads/2022/01/white-math-paper-texture.jpg");
+  background-position: center center;
+  font-size: 50px;
+  margin: 0;
+  overflow: hidden; /* Prevent scrollbars */
+}
+
+.paper {
+  background-image: url("https://i0.wp.com/textures.world/wp-content/uploads/2018/10/2-Millimeter-Paper-Background-copy.jpg?ssl=1");
+  background-size: 500px;
+  background-position: center center;
+  padding: 20px 100px;
+  transform: rotateZ(-5deg);
+  box-shadow: 1px 15px 20px 0px rgba(0, 0, 0, 0.5);
+  position: absolute;
+  user-select: none;
+}
+
+.paper.heart {
+  width: 300px;
+  height: 300px;
+  padding: 0;
+}
+
+.paper.image {
+  padding: 10px;
+}
+
+.paper.image p {
+  font-size: 30px;
+}
+
+img {
+  max-height: 600px;
+  display: block;
+  width: 100%;
+  user-select: none;
+}
+
+p {
+  font-family: 'Sofia';
+  font-size: 16px;
+  color: rgb(0, 0, 100);
+  opacity: 0.80;
+  
+}
+
+#vla {
+  /* font-family: "Satisfy", cursive; */
+}
